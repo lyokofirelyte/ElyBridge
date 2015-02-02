@@ -12,20 +12,17 @@
 hs_err_pid*
 
 .settings/
-<<<<<<< HEAD
 target/
 *.classpath
 *.project
 .classpath
 .project
-=======
 target/classes
 target/generated-sources
 target/maven-archiver
 target/test-classes
 *.classpath
 *.project
->>>>>>> FETCH_HEAD
 /target
 /bin
 dependency-reduced-pom.xml
