@@ -49,6 +49,7 @@ public class ElyMoveEvent implements Listener {
 		cooldowns.put(e.getPlayer().getName(), System.currentTimeMillis() + 10000L);
 	}
 	
+	@EventHandler
 	public void onQuit(PlayerQuitEvent e){
 		if (cooldowns.containsKey(e.getPlayer().getName())){
 			cooldowns.remove(e.getPlayer().getName());
